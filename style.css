@@ -1,8 +1,8 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
-  background: #f8fafc;
-  color: #222;
+  background: #181818;
+  color: #fff;
 }
 .container {
   max-width: 1100px;
@@ -14,14 +14,12 @@ header nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 1rem 0 1rem;
-  background: #fff;
-  box-shadow: 0 2px 8px #e0e7ef44;
+  background: #111;
+  box-shadow: 0 2px 8px #2224;
 }
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #3b82f6;
-  letter-spacing: 1px;
+.logo img {
+  height: 48px;
+  width: auto;
 }
 nav ul {
   display: flex;
@@ -32,40 +30,41 @@ nav ul {
 }
 nav ul a {
   text-decoration: none;
-  color: #222;
+  color: #fff;
   font-weight: 500;
   transition: color 0.2s;
 }
 nav ul a:hover {
-  color: #3b82f6;
+  color: #F29A20;
 }
 .cta {
-  background: #3b82f6;
-  color: #fff;
+  background: #F29A20;
+  color: #181818;
   padding: 0.7em 1.6em;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
   margin-left: 1.2rem;
   transition: background 0.2s;
+  box-shadow: 0 2px 8px #F29A2020;
 }
 .cta:hover {
-  background: #2563eb;
+  background: #c87b13;
 }
 .hero {
   text-align: center;
   padding: 5rem 0 3rem 0;
-  background: linear-gradient(90deg, #e0e7ef 60%, #fff 100%);
+  background: linear-gradient(90deg, #232323 60%, #181818 100%);
 }
 .hero h1 {
   font-size: 2.7rem;
   margin-bottom: 1.2rem;
-  color: #222;
+  color: #fff;
 }
 .hero p {
   font-size: 1.3rem;
   margin-bottom: 2rem;
-  color: #374151;
+  color: #dedede;
 }
 .objectifs {
   list-style: none;
@@ -76,11 +75,11 @@ nav ul a:hover {
   gap: 1.3rem;
 }
 .objectifs li {
-  background: #e0e7ef;
+  background: #232323;
   padding: 0.8em 1.2em;
   border-radius: 18px;
   font-weight: 500;
-  color: #2563eb;
+  color: #F29A20;
 }
 .features-grid {
   display: grid;
@@ -89,15 +88,15 @@ nav ul a:hover {
   margin: 2.5rem 0;
 }
 .feature {
-  background: #fff;
+  background: #222;
   border-radius: 14px;
   padding: 1.5rem;
-  box-shadow: 0 2px 8px #e0e7ef44;
+  box-shadow: 0 2px 8px #1a1a1a77;
 }
 .feature .tag {
   display: inline-block;
-  background: #dbeafe;
-  color: #2563eb;
+  background: #F29A2033;
+  color: #F29A20;
   font-size: 0.85em;
   border-radius: 8px;
   padding: 0.1em 0.6em;
@@ -113,7 +112,8 @@ nav ul a:hover {
   width: 320px;
   max-width: 90vw;
   border-radius: 12px;
-  box-shadow: 0 2px 12px #e0e7ef77;
+  box-shadow: 0 2px 12px #F29A2022;
+  background: #fff;
 }
 @media (max-width: 900px) {
   .wellbeing-flex {
@@ -129,15 +129,17 @@ nav ul a:hover {
   margin: 1.5rem 0;
 }
 #contact input, #contact textarea {
-  border: 1px solid #e0e7ef;
+  border: 1px solid #232323;
   border-radius: 8px;
   padding: 0.9em;
   font-size: 1em;
+  background: #181818;
+  color: #fff;
   resize: none;
 }
 #contact button {
-  background: #3b82f6;
-  color: #fff;
+  background: #F29A20;
+  color: #181818;
   border: none;
   border-radius: 20px;
   font-size: 1.1em;
@@ -147,17 +149,17 @@ nav ul a:hover {
   transition: background 0.2s;
 }
 #contact button:hover {
-  background: #2563eb;
+  background: #c87b13;
 }
 #contact .small {
   font-size: 0.97em;
-  color: #6b7280;
+  color: #dedede;
 }
 footer {
-  background: #e0e7ef;
+  background: #232323;
   text-align: center;
   padding: 1.3rem 0;
   font-size: 1em;
-  color: #374151;
+  color: #dedede;
   margin-top: 2rem;
 }
